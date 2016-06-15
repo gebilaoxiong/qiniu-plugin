@@ -1,12 +1,17 @@
 {
   "name": "qiniu-plugin",
   "author": "gebilaoxiong <gebilaoxiong@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "将webpack打包的资源文件上传至七牛云",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gebilaoxiong/qiniu-plugin.git"
+  },
+  "bugs": "https://github.com/gebilaoxiong/issues",
   "license": "ISC",
   "dependencies": {
     "bash-color": "0.0.4",

@@ -15,9 +15,9 @@ var path = require('path'),
 
   utilSys = require('util'),
 
-  util = require('../util'),
+  util = require('./lib/util'),
 
-  Resource = require('../resource'),
+  Resource = require('./lib/resource'),
 
   package = require(path.join(process.cwd(), 'package.json')),
 
