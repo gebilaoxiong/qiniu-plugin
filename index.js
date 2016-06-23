@@ -96,7 +96,7 @@ proto.apply = function(compiler) {
       options = $.cloneDeep(package);
 
     // 遍历资源
-    $.map(assets, function(asset, fileName) {
+    $.each(assets, function(asset, fileName) {
       var resource;
 
       if (!asset.emitted) {
