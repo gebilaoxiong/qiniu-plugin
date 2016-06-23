@@ -125,8 +125,8 @@ proto.apply = function(compiler) {
     });
 
     // run queue
-    taskQueue.start(function(error){
-      
+    taskQueue.start(function(){
+      callback();
     });
   }
 }
