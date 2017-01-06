@@ -14,7 +14,7 @@ npm:
 **引入：**
 
 ```
-  QiniuPlugin = reqiure('qiniu-plugin');
+  QiniuPlugin = require('qiniu-plugin');
 ```
 
 **使用：**
